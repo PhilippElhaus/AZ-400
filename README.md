@@ -16,7 +16,7 @@ The AZ-400 exam validates skills related to:
 ### 1. Design and implement processes and communications (10–15%)
 
 #### 1.1 Design and implement traceability and flow of work
-- ❌ Design and implement GitHub Flow
+- ✅ Design and implement GitHub Flow
 - ❌ Design and implement feedback cycles (notifications, GitHub issues)
 - ❌ Integrate GitHub Projects, Azure Boards, repositories
 - ❌ Implement source, bug, and quality traceability
