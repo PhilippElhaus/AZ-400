@@ -13,15 +13,15 @@ The AZ-400 exam validates skills related to:
 
 ## Skills Outline Coverage
 
-### 1. Design and implement processes and communications (10–15%)
+### 1. Pocesses and communications (10–15%)
 
-#### 1.1 Design and implement traceability and flow of work
+#### 1.1 Traceability and flow of work
 - ✅ Design and implement GitHub Flow
 - ✅ Design and implement feedback cycles (notifications, GitHub issues)
-- ❌ Integrate GitHub Projects, Azure Boards, repositories
-- ❌ Implement source, bug, and quality traceability
+- ✅ Integrate GitHub Projects, Azure Boards, repositories
+- ✅ Implement source, bug, and quality traceability
 
-#### 1.2 Design and implement appropriate metrics and queries for DevOps
+#### 1.2 Metrics and queries for DevOps
 - ❌ Dashboards: cycle time, time to recovery, lead time
 - ❌ Metrics/queries for: planning, development, testing, security, delivery, operations
 
@@ -31,9 +31,9 @@ The AZ-400 exam validates skills related to:
 - ❌ Automate documentation from Git history
 - ❌ Integrate using webhooks, GitHub/Azure Boards, Teams
 
-### 2. Design and implement a source control strategy (10–15%)
+### 2. Source control strategy (10–15%)
 
-#### 2.1 Design and implement branching and workflows
+#### 2.1 Branching and workflows
 - ❌ Branch strategies: trunk-based, feature, release
 - ❌ Pull request workflows with policies
 - ❌ Branch protections and merge restrictions
@@ -50,9 +50,9 @@ The AZ-400 exam validates skills related to:
 - ❌ Versioning strategies: SemVer, CalVer
 - ❌ Version pipeline artifacts
 
-### 3. Design and implement build and release pipelines (50–55%)
+### 3. Build and release pipelines (50–55%)
 
-#### 3.1 Design a package management and testing strategy
+#### 3.1 Package management and testing strategy
 - ❌ Quality/release gates (security, governance)
 - ❌ Testing strategy: unit, integration, load
 - ❌ Tests in pipelines: agents, result integration
@@ -92,7 +92,7 @@ The AZ-400 exam validates skills related to:
 - ❌ Artifact retention strategy
 - ❌ Migrate classic to YAML
 
-### 4. Develop a security and compliance plan (10–15%)
+### 4. Security and compliance (10–15%)
 
 #### 4.1 Authentication and authorization
 - ❌ Choose: Service Principals, Managed Identity
@@ -118,7 +118,7 @@ The AZ-400 exam validates skills related to:
 - ❌ CodeQL, container scanning
 - ❌ Dependabot for OSS scanning
 
-### 5. Implement an instrumentation strategy (5–10%)
+### 5. Instrumentation (5–10%)
 
 #### 5.1 Monitoring setup
 - ❌ Configure Azure Monitor, Log Analytics
