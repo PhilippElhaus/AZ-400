@@ -22,8 +22,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Implement source, bug, and quality traceability
 
 #### 1.2 Metrics and queries for DevOps
-- ❌ Dashboards: cycle time, time to recovery, lead time
-- ❌ Metrics/queries for: planning, development, testing, security, delivery, operations
+- ✅ Dashboards: cycle time, time to recovery, lead time
+- ✅ Metrics/queries for: planning, development, testing, security, delivery, operations
 
 #### 1.3 Configure collaboration and communication
 - ❌ Document projects with wikis and diagrams (Markdown, Mermaid)
