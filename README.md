@@ -26,8 +26,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Metrics/queries for: planning, development, testing, security, delivery, operations
 
 #### 1.3 Configure collaboration and communication
-- ❌ Document projects with wikis and diagrams (Markdown, Mermaid)
-- ❌ Configure release documentation (release notes, API docs)
+- ✅ Document projects with wikis and diagrams (Markdown, Mermaid)
+- ✅ Configure release documentation (release notes, API docs)
 - ❌ Automate documentation from Git history
 - ❌ Integrate using webhooks, GitHub/Azure Boards, Teams
 
