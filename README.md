@@ -34,9 +34,9 @@ The AZ-400 exam validates skills related to:
 ### 2. Source control strategy (10–15%)
 
 #### 2.1 Branching and workflows
-- ❌ Branch strategies: trunk-based, feature, release
-- ❌ Pull request workflows with policies
-- ❌ Branch protections and merge restrictions
+- ✅ Branch strategies: trunk-based, feature, release
+- ✅ Pull request workflows with policies
+- ✅ Branch protections and merge restrictions
 
 #### 2.2 Repository configuration and maintenance
 - ❌ Manage large files (Git LFS, git-fat)
