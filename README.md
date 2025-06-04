@@ -39,8 +39,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Branch protections and merge restrictions
 
 #### 2.2 Repository configuration and maintenance
-- ❌ Manage large files (Git LFS, git-fat)
-- ❌ Optimize scaling (Scalar, cross-repo)
+- ✅ Manage large files (Git LFS, git-fat)
+- ✅ Optimize scaling (Scalar, cross-repo)
 - ❌ Configure permissions, tags
 - ❌ Recover/remove data with Git commands
 
