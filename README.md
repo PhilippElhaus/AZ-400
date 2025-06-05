@@ -45,8 +45,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Recover/remove data with Git commands
 
 #### 2.3 Package management
-- ❌ Tools: GitHub Packages, Azure Artifacts
-- ❌ Configure feeds/views for packages
+- ✅ Tools: GitHub Packages, Azure Artifacts
+- ✅ Configure feeds/views for packages
 - ❌ Versioning strategies: SemVer, CalVer
 - ❌ Version pipeline artifacts
 
