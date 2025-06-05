@@ -41,8 +41,8 @@ The AZ-400 exam validates skills related to:
 #### 2.2 Repository configuration and maintenance
 - ✅ Manage large files (Git LFS, git-fat)
 - ✅ Optimize scaling (Scalar, cross-repo)
-- ❌ Configure permissions, tags
-- ❌ Recover/remove data with Git commands
+- ✅ Configure permissions, tags
+- ✅ Recover/remove data with Git commands
 
 #### 2.3 Package management
 - ❌ Tools: GitHub Packages, Azure Artifacts
