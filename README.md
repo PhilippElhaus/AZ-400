@@ -53,10 +53,10 @@ The AZ-400 exam validates skills related to:
 ### 3. Build and release pipelines (50–55%)
 
 #### 3.1 Package management and testing strategy
-- ❌ Quality/release gates (security, governance)
-- ❌ Testing strategy: unit, integration, load
-- ❌ Tests in pipelines: agents, result integration
-- ❌ Code coverage analysis
+- ✅ Quality/release gates (security, governance)
+- ✅ Testing strategy: unit, integration, load
+- ✅ Tests in pipelines: agents, result integration
+- ✅ Code coverage analysis
 
 #### 3.2 Design and implement pipelines
 - ❌ Automation tools: GitHub Actions, Azure Pipelines
