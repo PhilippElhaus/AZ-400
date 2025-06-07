@@ -59,8 +59,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Code coverage analysis
 
 #### 3.2 Design and implement pipelines
-- ❌ Automation tools: GitHub Actions, Azure Pipelines
-- ❌ Runner/agent infra: cost, licenses, connectivity
+- ✅ Automation tools: GitHub Actions, Azure Pipelines
+- ✅ Runner/agent infra: cost, licenses, connectivity
 - ❌ Integration of GitHub repos with Azure Pipelines
 - ❌ Pipeline triggers, YAML usage, job execution
 
