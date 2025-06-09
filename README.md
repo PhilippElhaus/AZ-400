@@ -65,9 +65,9 @@ The AZ-400 exam validates skills related to:
 - ✅ Pipeline triggers, YAML usage, job execution
 
 #### 3.3 Advanced pipeline design
-- ❌ Hybrid pipelines, self-hosted agents, VM templates
-- ❌ Reusable elements: YAML templates, task/variable groups
-- ❌ Checks and approvals with YAML environments
+- ✅ Hybrid pipelines, self-hosted agents, VM templates
+- ✅ Reusable elements: YAML templates, task/variable groups
+- ✅ Checks and approvals with YAML environments
 
 #### 3.4 Deployment strategy and execution
 - ❌ Blue-green, canary, ring, progressive exposure, A/B
