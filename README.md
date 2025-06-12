@@ -70,10 +70,10 @@ The AZ-400 exam validates skills related to:
 - ✅ Checks and approvals with YAML environments
 
 #### 3.4 Deployment strategy and execution
-- ❌ Blue-green, canary, ring, progressive exposure, A/B
-- ❌ Ordered dependency deployments
-- ❌ Minimize downtime: VIP swap, rolling, slots
-- ❌ Hotfix and resiliency planning
+- ✅ Blue-green, canary, ring, progressive exposure, A/B
+- ✅ Ordered dependency deployments
+- ✅ Minimize downtime: VIP swap, rolling, slots
+- ✅ Hotfix and resiliency planning
 
 #### 3.5 Implement deployment solutions
 - ❌ Feature flags with Azure App Configuration
