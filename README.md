@@ -76,8 +76,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Hotfix and resiliency planning
 
 #### 3.5 Implement deployment solutions
-- ❌ Feature flags with Azure App Configuration
-- ❌ Deploy containers, binaries, scripts
+- ✅ Feature flags with Azure App Configuration
+- ✅ Deploy containers, binaries, scripts
 - ❌ Database task deployments
 - ❌ Configuration management tools/strategies
 
