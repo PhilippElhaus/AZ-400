@@ -78,8 +78,8 @@ The AZ-400 exam validates skills related to:
 #### 3.5 Implement deployment solutions
 - ✅ Feature flags with Azure App Configuration
 - ✅ Deploy containers, binaries, scripts
-- ❌ Database task deployments
-- ❌ Configuration management tools/strategies
+- ✅ Database task deployments
+- ✅ Configuration management tools/strategies
 
 #### 3.6 Infrastructure as Code (IaC)
 - ❌ Define IaC strategy: source control, automation
