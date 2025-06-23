@@ -82,9 +82,9 @@ The AZ-400 exam validates skills related to:
 - ✅ Configuration management tools/strategies
 
 #### 3.6 Infrastructure as Code (IaC)
-- ❌ Define IaC strategy: source control, automation
-- ❌ Implement desired state: Bicep, ARM, DSC
-- ❌ Azure Deployment Environments (self-deployment)
+- ✅ Define IaC strategy: source control, automation
+- ✅ Implement desired state: Bicep, ARM, DSC
+- ✅ Azure Deployment Environments (self-deployment)
 
 #### 3.7 Maintain and optimize pipelines
 - ❌ Monitor pipeline health (failures, duration)
