@@ -87,8 +87,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Azure Deployment Environments (self-deployment)
 
 #### 3.7 Maintain and optimize pipelines
-- ❌ Monitor pipeline health (failures, duration)
-- ❌ Optimize: cost, time, reliability, performance
+- ✅ Monitor pipeline health (failures, duration)
+- ✅ Optimize: cost, time, reliability, performance
 - ❌ Artifact retention strategy
 - ❌ Migrate classic to YAML
 
