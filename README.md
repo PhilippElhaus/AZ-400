@@ -89,8 +89,8 @@ The AZ-400 exam validates skills related to:
 #### 3.7 Maintain and optimize pipelines
 - ✅ Monitor pipeline health (failures, duration)
 - ✅ Optimize: cost, time, reliability, performance
-- ❌ Artifact retention strategy
-- ❌ Migrate classic to YAML
+- ✅ Artifact retention strategy
+- ✅ Migrate classic to YAML
 
 ### 4. Security and compliance (10–15%)
 
