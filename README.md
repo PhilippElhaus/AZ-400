@@ -97,8 +97,8 @@ The AZ-400 exam validates skills related to:
 #### 4.1 Authentication and authorization
 - ✅ Choose: Service Principals, Managed Identity
 - ✅ GitHub auth: Apps, tokens
-- ❌ Azure DevOps service connections, tokens
-- ❌ Permissions/roles in GitHub
+- ✅ Azure DevOps service connections, tokens
+- ✅ Permissions/roles in GitHub
 
 #### 4.2 Permissions and access
 - ❌ Azure DevOps permissions, security groups
