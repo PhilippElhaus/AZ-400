@@ -101,9 +101,9 @@ The AZ-400 exam validates skills related to:
 - ✅ Permissions/roles in GitHub
 
 #### 4.2 Permissions and access
-- ❌ Azure DevOps permissions, security groups
-- ❌ Access levels: stakeholders, collaborators
-- ❌ Project/team config in Azure DevOps
+- ✅ Azure DevOps permissions, security groups
+- ✅ Access levels: stakeholders, collaborators
+- ✅ Project/team config in Azure DevOps
 
 #### 4.3 Secret and sensitive data management
 - ❌ Azure Key Vault secrets/keys/certs
