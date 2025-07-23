@@ -108,8 +108,8 @@ The AZ-400 exam validates skills related to:
 #### 4.3 Secret and sensitive data management
 - ✅ Azure Key Vault secrets/keys/certs
 - ✅ Secrets in GitHub Actions/Azure Pipelines
-- ❌ Secure files during deployment
-- ❌ Prevent sensitive data leakage in pipelines
+- ✅ Secure files during deployment
+- ✅ Prevent sensitive data leakage in pipelines
 
 #### 4.4 Security and compliance scanning
 - ❌ Dependency/code/secret/license scanning
