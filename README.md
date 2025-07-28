@@ -112,8 +112,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Prevent sensitive data leakage in pipelines
 
 #### 4.4 Security and compliance scanning
-- ❌ Dependency/code/secret/license scanning
-- ❌ Microsoft Defender for DevOps Security
+- ✅ Dependency/code/secret/license scanning
+- ✅ Microsoft Defender for DevOps Security
 - ❌ GitHub Advanced Security
 - ❌ CodeQL, container scanning
 - ❌ Dependabot for OSS scanning
