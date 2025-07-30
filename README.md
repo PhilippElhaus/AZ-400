@@ -114,9 +114,9 @@ The AZ-400 exam validates skills related to:
 #### 4.4 Security and compliance scanning
 - ✅ Dependency/code/secret/license scanning
 - ✅ Microsoft Defender for DevOps Security
-- ❌ GitHub Advanced Security
-- ❌ CodeQL, container scanning
-- ❌ Dependabot for OSS scanning
+- ✅ GitHub Advanced Security
+- ✅ CodeQL, container scanning
+- ✅ Dependabot for OSS scanning
 
 ### 5. Instrumentation (5–10%)
 
