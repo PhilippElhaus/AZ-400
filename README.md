@@ -121,8 +121,8 @@ The AZ-400 exam validates skills related to:
 ### 5. Instrumentation (5–10%)
 
 #### 5.1 Monitoring setup
-- ❌ Configure Azure Monitor, Log Analytics
-- ❌ Telemetry with App Insights, VM/Container/Storage/Network Insights
+- ✅ Configure Azure Monitor, Log Analytics
+- ✅ Telemetry with App Insights, VM/Container/Storage/Network Insights
 
 #### 5.2 Alerting and metrics
 - ❌ GitHub monitoring insights/charts
