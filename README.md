@@ -129,8 +129,8 @@ The AZ-400 exam validates skills related to:
 - ✅ Alerts in GitHub Actions and Azure Pipelines
 
 #### 5.3 Metrics and telemetry analysis
-- ❌ Inspect: CPU, memory, disk, network
-- ❌ Analyze app usage/performance metrics
+- ✅ Inspect: CPU, memory, disk, network
+- ✅ Analyze app usage/performance metrics
 - ❌ Distributed tracing with App Insights
 - ❌ Kusto Query Language (KQL) basics
 
