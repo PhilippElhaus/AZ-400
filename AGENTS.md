@@ -10,13 +10,21 @@
 - Merge validated branches into `main` as soon as authority permits. Delete
   merged branches, prune refs, and never force-push `main`.
 - If work cannot merge, record its branch, commit, checks, remaining work, and
-  owner. This policy does not authorize Git or live mutations.
+  owner. This branch policy alone does not authorize Git or live mutations.
 - Prefer Rust over Python for new components and substantial rework when Rust
   is practical. Prioritize it for long-running, privileged, concurrent,
   network-facing, performance-sensitive, or system-level code.
 - Keep the established language when it is safer or its ecosystem requires it.
   Do not rewrite only to change language. Preserve interfaces, schemas,
   deployment, rollback, and resource limits.
+
+## Bug-fix delivery
+
+- For a bug or issue fix, implement and validate the change, then commit, push,
+  and deploy it through the documented path without further approval. Skip a
+  step only when the user excludes it.
+- Credential, destructive-action, dirty-worktree, force-push, and cutoff rules
+  still apply. Report a step as blocked when no safe documented path exists.
 
 ## Credential and LAN safety
 
