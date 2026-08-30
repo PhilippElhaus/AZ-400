@@ -1,169 +1,38 @@
-﻿# AZ-400 Exam Prep – Microsoft Certified: DevOps Engineer Expert
+# AZ-400 Exam Prep
 
-This repository contains categorized PDF question sets for the AZ-400 certification. Content is aligned with the official Microsoft Learn skill outline (April 2025).
+Categorized PDF question sets for Microsoft Certified: DevOps Engineer Expert.
+The topic map follows the Microsoft Learn skills outline from April 2025.
 
-## AI Sparring
+## Coverage
 
-Use this system prompt to use the repository as a basis for multiple-choice AI training.
+| Domain | Weight | Covered skills |
+| --- | ---: | --- |
+| Processes and communication | 10–15% | GitHub Flow, feedback cycles, Projects/Boards integration, traceability, DevOps metrics, dashboards, wikis, diagrams, release/API documentation, history-driven docs, webhooks, and Teams. |
+| Source control | 10–15% | Branching and PR policy, protection, Git LFS/git-fat, Scalar and cross-repo scale, permissions, tags, recovery, GitHub Packages, Azure Artifacts, feeds, SemVer/CalVer, and artifact versions. |
+| Build and release | 50–55% | Quality gates, unit/integration/load tests, coverage, Actions/Pipelines, runners and agents, triggers/YAML/jobs, hybrid and reusable pipelines, environments/approvals, progressive delivery, dependency ordering, hotfix/resilience, flags, container/binary/script/database deployment, configuration management, Bicep/ARM/DSC, Deployment Environments, health/cost/performance/retention, and classic-to-YAML migration. |
+| Security and compliance | 10–15% | Service principals, managed identity, GitHub Apps/tokens, service connections, roles/access, Key Vault, pipeline secrets and secure files, leak prevention, dependency/code/secret/licence/container scanning, Defender for DevOps, Advanced Security, CodeQL, and Dependabot. |
+| Instrumentation | 5–10% | Azure Monitor, Log Analytics, Application/VM/Container/Storage/Network Insights, GitHub and pipeline alerts, resource/application telemetry, distributed tracing, and KQL. |
+
+## AI sparring prompt
+
+Use the repository PDFs and current Microsoft Learn material with this prompt:
+
+```text
+You are a precise, professional AZ-400 training assistant.
+
+- Ask one difficult, exam-aligned multiple-choice question at a time.
+- Do not reveal the answer before the user responds.
+- After the response, state whether it is correct and explain in 2–3 sentences.
+- Continue automatically unless the user pauses or changes the topic.
+- Shuffle topics and answer order. Weight topics by the current skills outline.
+- Use concise, accurate, tab-indented code when useful.
+- Use Microsoft Learn first and this repository's PDFs as supporting material.
+- Explain more deeply only when requested.
+- Use no emojis, fluff, or off-topic commentary.
 ```
-You are a precise, professional, and exam-focused training assistant to prepare the User for the AZ-400 (Azure DevOps Engineer Expert) certification (https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/). Follow these rules:
-Quiz Behavior:
-- Present one multiple-choice question at a time.
-- Do not reveal the correct answer immediately.
-- Wait for the user’s answer.
-- On submission, confirm correctness and provide a brief (2–3 sentence) explanation.
-- Automatically continue with the next question after feedback unless the user requests a pause or topic change.
-- Ensure questions are difficult, in-depth, and AZ-400 exam-aligned.
-- Shuffle topics and randomize order.
-- Provide concise, accurate, tab-indented code where applicable; no verbosity or unnecessary commentary.
 
-Content Sources:
+## Official resources
 
-1. Microsoft Learn
-2. PDF Files in Github Repo https://github.com/PhilippElhaus/AZ-400/
-Prioritize topics per the latest AZ-400 skills outline.
-
-Additional Rules:
-
-- Explain concepts deeper only upon explicit user request without breaking quiz flow.
-- Maintain a professional, minimal tone — no emojis, no fluff, no off-topic comments.
-```
-
-
-## Overview
-
-The AZ-400 exam validates skills related to:
-- Designing and implementing processes and communications
-- Designing and implementing a source control strategy
-- Designing and implementing build and release pipelines
-- Developing a security and compliance plan
-- Implementing an instrumentation strategy
-
-## Skills Outline Coverage
-
-### 1. Pocesses and communications (10–15%)
-
-#### 1.1 Traceability and flow of work
-- ✅ Design and implement GitHub Flow
-- ✅ Design and implement feedback cycles (notifications, GitHub issues)
-- ✅ Integrate GitHub Projects, Azure Boards, repositories
-- ✅ Implement source, bug, and quality traceability
-
-#### 1.2 Metrics and queries for DevOps
-- ✅ Dashboards: cycle time, time to recovery, lead time
-- ✅ Metrics/queries for: planning, development, testing, security, delivery, operations
-
-#### 1.3 Configure collaboration and communication
-- ✅ Document projects with wikis and diagrams (Markdown, Mermaid)
-- ✅ Configure release documentation (release notes, API docs)
-- ✅ Automate documentation from Git history
-- ✅ Integrate using webhooks, GitHub/Azure Boards, Teams
-
-### 2. Source control strategy (10–15%)
-
-#### 2.1 Branching and workflows
-- ✅ Branch strategies: trunk-based, feature, release
-- ✅ Pull request workflows with policies
-- ✅ Branch protections and merge restrictions
-
-#### 2.2 Repository configuration and maintenance
-- ✅ Manage large files (Git LFS, git-fat)
-- ✅ Optimize scaling (Scalar, cross-repo)
-- ✅ Configure permissions, tags
-- ✅ Recover/remove data with Git commands
-
-#### 2.3 Package management
-- ✅ Tools: GitHub Packages, Azure Artifacts
-- ✅ Configure feeds/views for packages
-- ✅ Versioning strategies: SemVer, CalVer
-- ✅ Version pipeline artifacts
-
-### 3. Build and release pipelines (50–55%)
-
-#### 3.1 Package management and testing strategy
-- ✅ Quality/release gates (security, governance)
-- ✅ Testing strategy: unit, integration, load
-- ✅ Tests in pipelines: agents, result integration
-- ✅ Code coverage analysis
-
-#### 3.2 Design and implement pipelines
-- ✅ Automation tools: GitHub Actions, Azure Pipelines
-- ✅ Runner/agent infra: cost, licenses, connectivity
-- ✅ Integration of GitHub repos with Azure Pipelines
-- ✅ Pipeline triggers, YAML usage, job execution
-
-#### 3.3 Advanced pipeline design
-- ✅ Hybrid pipelines, self-hosted agents, VM templates
-- ✅ Reusable elements: YAML templates, task/variable groups
-- ✅ Checks and approvals with YAML environments
-
-#### 3.4 Deployment strategy and execution
-- ✅ Blue-green, canary, ring, progressive exposure, A/B
-- ✅ Ordered dependency deployments
-- ✅ Minimize downtime: VIP swap, rolling, slots
-- ✅ Hotfix and resiliency planning
-
-#### 3.5 Implement deployment solutions
-- ✅ Feature flags with Azure App Configuration
-- ✅ Deploy containers, binaries, scripts
-- ✅ Database task deployments
-- ✅ Configuration management tools/strategies
-
-#### 3.6 Infrastructure as Code (IaC)
-- ✅ Define IaC strategy: source control, automation
-- ✅ Implement desired state: Bicep, ARM, DSC
-- ✅ Azure Deployment Environments (self-deployment)
-
-#### 3.7 Maintain and optimize pipelines
-- ✅ Monitor pipeline health (failures, duration)
-- ✅ Optimize: cost, time, reliability, performance
-- ✅ Artifact retention strategy
-- ✅ Migrate classic to YAML
-
-### 4. Security and compliance (10–15%)
-
-#### 4.1 Authentication and authorization
-- ✅ Choose: Service Principals, Managed Identity
-- ✅ GitHub auth: Apps, tokens
-- ✅ Azure DevOps service connections, tokens
-- ✅ Permissions/roles in GitHub
-
-#### 4.2 Permissions and access
-- ✅ Azure DevOps permissions, security groups
-- ✅ Access levels: stakeholders, collaborators
-- ✅ Project/team config in Azure DevOps
-
-#### 4.3 Secret and sensitive data management
-- ✅ Azure Key Vault secrets/keys/certs
-- ✅ Secrets in GitHub Actions/Azure Pipelines
-- ✅ Secure files during deployment
-- ✅ Prevent sensitive data leakage in pipelines
-
-#### 4.4 Security and compliance scanning
-- ✅ Dependency/code/secret/license scanning
-- ✅ Microsoft Defender for DevOps Security
-- ✅ GitHub Advanced Security
-- ✅ CodeQL, container scanning
-- ✅ Dependabot for OSS scanning
-
-### 5. Instrumentation (5–10%)
-
-#### 5.1 Monitoring setup
-- ✅ Configure Azure Monitor, Log Analytics
-- ✅ Telemetry with App Insights, VM/Container/Storage/Network Insights
-
-#### 5.2 Alerting and metrics
-- ✅ GitHub monitoring insights/charts
-- ✅ Alerts in GitHub Actions and Azure Pipelines
-
-#### 5.3 Metrics and telemetry analysis
-- ✅ Inspect: CPU, memory, disk, network
-- ✅ Analyze app usage/performance metrics
-- ✅ Distributed tracing with App Insights
-- ✅ Kusto Query Language (KQL) basics
-
-## 📚 Resources
-
-- [AZ-400 Certification Overview](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/)
-- [Microsoft Learn: AZ-400 Training Paths](https://learn.microsoft.com/en-us/training/paths/devops-engineer/)
-- [Practice Assessment](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/practice/assessment)
+- [Certification overview](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/)
+- [DevOps Engineer training path](https://learn.microsoft.com/en-us/training/paths/devops-engineer/)
+- [Practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/practice/assessment)
